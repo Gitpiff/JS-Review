@@ -34,7 +34,7 @@ function jumanji(a, b) {
 
 //jumanji(10, 10)
 
-// Create a function that multiplys three numbers and if the product is divisible by 3 alert ZEBRA
+// Create a function that multiply three numbers and if the product is divisible by 3 alert ZEBRA
 function multiply(a, b, c) {
     let mul = a * b * c
     if(mul % 3 === 0) {
