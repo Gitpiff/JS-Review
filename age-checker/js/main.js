@@ -29,7 +29,7 @@ document.querySelector("h1").addEventListener("click", checkAge)
 const p = document.querySelector("p")
 
 function checkAge() {
-    let age = Number(document.querySelector("input".value))
+    let age = Number(document.querySelector("input").value)
 
     if(age < 16) {
         p.innerText = "Can't drive"
