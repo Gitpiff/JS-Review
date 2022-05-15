@@ -1,4 +1,4 @@
-const contestants = document.querySelectorAll("h2")
+const contestants = document.querySelectorAll(".contestant") //we need to specify that we are looking for a class
 
 Array.from(contestants).forEach(element => element.addEventListener('click', checkForRose))
 
