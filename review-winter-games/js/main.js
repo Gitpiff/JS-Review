@@ -5,13 +5,13 @@ function arrayOfEven(arr) {
         let evenNums = []
 
          //forEach
-        arr.forEach( element => {
-            if(element % 2 === 0) {
-                evenNums.push(element)
-            }
-        })
+        // arr.forEach( element => {
+        //     if(element % 2 === 0) {
+        //         evenNums.push(element)
+        //     }
+        // })
 
-        return evenNums
+        // return evenNums
 
 
         //For loop
@@ -20,6 +20,9 @@ function arrayOfEven(arr) {
     //         evenNums.push(i)
     //     }
     // }
+
+        //map
+    return arr.map(num => num % 2 === 0 ? evenNums.push(num) : null)
 
     // console.log(evenNums)
 }
